@@ -1,0 +1,99 @@
+body{
+        background: #000000;
+        font-family: 'Asap', sans-serif;
+        color: ##000000;
+}
+a {
+        color: #337ab7;
+        text-decoration: none;
+}
+a:hover, 
+a:focus {
+        color: #337ab7;
+        text-decoration: underline;
+}
+ol, ul {
+    	padding-left: 20px;
+}
+.h1, h1 {
+        font-size: 26px;
+}
+.navbar-custom {
+        background-color: #222;
+        border-color: #080808;
+        color: #fff;
+}
+.navbar-toggle {
+        color: #428BCA;    
+}
+.navbar-custom a{
+        color: #fff;
+}
+.navbar-custom a:hover{
+        color: wheat;
+}
+.navbar-custom .nav>li>a:hover,
+.navbar-custom .nav>li>a:focus,.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+        background-color: #337ab7;
+}
+.box-container {
+	background-color: #ffffff;
+	border: 1px solid #F1EDED;
+	margin-bottom: 25px;
+	padding: 15px;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.21);
+}
+
+.nowrap {
+        display: block;    
+        white-space: nowrap;    
+        text-overflow: ellipsis;    
+        overflow: hidden;
+}
+.page-header {
+        margin: 0  0 20px;
+}
+.movie-list {
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+}
+.movie-list .thumbnail {
+        margin-bottom: 3px;
+}
+.movie-list-title {
+        font-size: 13px;    
+        padding: 5px 4px;
+        font-weight: 700;
+}
+.media-left a.playicon {
+        width: 128px;
+        height: 128px;
+        display: block;
+        margin-top: -64px;
+        margin-left: -130px;
+        left: 65%;
+        top: 60%;
+        position: absolute;
+}
+.media-left a.playicon i {
+        color: #fff;
+        font-size: 50px;
+        margin-top: 28px;
+        opacity: .5;
+}
+@media (min-width: 1200px){
+        .container {
+                width: 970px;
+        }
+}
+@media (max-width: 767px){
+        .dropdown-menu>li>a {
+                color: #fff;
+        }
+}
+.online{color:#fff; font-size: 12px;position:fixed; bottom: 0;right:0; background:rgba(0,0,0,0.5);  width:180px; padding:10px; border-radius:5px 0 0 0;  }
+.online-icon{display: inline-block; background: url('http://forums.getpaint.net/public/style_images/master/ajax_loading.gif') no-repeat; width:43px; height:11px;}
+.online-text{
+        width:140px;float:right;display: inline-block;
+}
+.online-text p{margin:0;}

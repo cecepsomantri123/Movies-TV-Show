@@ -1,0 +1,119 @@
+body{
+        background-image: url("https://i.ytimg.com/vi/-sUMCWfLvHk/maxresdefault.jpg");
+        font-family: 'Asap', sans-serif;
+        background-color: #252527;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat; 
+}
+a {
+        color: #ffa400;
+        text-decoration: none;
+}
+a:hover, 
+a:focus {
+        color: #efac38;
+        text-decoration: underline;
+}
+ol, ul {
+    	padding-left: 20px;
+}
+.h1, h1 {
+        font-size: 26px;
+}
+.navbar-custom {
+        background-color: #222;
+        border-color: #080808;
+        color: #fff;
+}
+.navbar-toggle {
+        color: #428BCA;    
+}
+.navbar-custom a{
+        color: #fff;
+}
+.navbar-custom a:hover{
+        color: wheat;
+}
+.navbar-custom .nav>li>a:hover,
+.navbar-custom .nav>li>a:focus,.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+        background-color: #337ab7;
+}
+.box-container {
+	background-color: #101010;
+	border: 1px solid #444343;
+	color: #fff;
+	margin-bottom: 25px;
+	padding: 15px;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.21);
+}
+table {
+        background-color: #181818;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+        background-color: #181818;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+        border-top: 1px solid #282828;
+}
+.nowrap {
+        display: block;            
+        overflow: hidden;
+}
+.page-header {
+        margin: 0  0 20px;
+        border-bottom: 1px solid #444343;
+}
+.movie-list {
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        position: relative;
+}
+.movie-list .thumbnail {
+        margin-bottom: 3px;
+}
+.movie-list-title {
+        font-size: 13px;    
+        padding: 5px 10px;
+        font-weight: 700;
+        background-color: #000;
+        opacity: 0.8;
+        position: absolute;
+        bottom: 10px;
+        right: 0;
+}
+.movie-list .label-info {
+        position: absolute;
+        top: 0;
+        left: 0;
+}
+.media-left a.playicon {
+        width: 128px;
+        height: 128px;
+        display: block;
+        margin-top: -64px;
+        margin-left: -115px;
+        left: 50%;
+        top: 60%;
+        position: absolute;
+}
+.media-left a.playicon i {
+        color: #fff;
+        font-size: 50px;
+        margin-top: 28px;
+        opacity: .5;
+}
+@media (min-width: 1200px){
+
+}
+@media (max-width: 767px){
+        .dropdown-menu>li>a {
+                color: #fff;
+        }
+}
+.online{color:#fff; font-size: 12px;position:fixed; bottom: 0;right:0; background:rgba(0,0,0,0.5);  width:180px; padding:10px; border-radius:5px 0 0 0;  }
+.online-icon{display: inline-block; background: url('http://forums.getpaint.net/public/style_images/master/ajax_loading.gif') no-repeat; width:43px; height:11px;}
+.online-text{
+        width:140px;float:right;display: inline-block;
+}
+.online-text p{margin:0;}
